@@ -8,6 +8,8 @@ body {
 	font-size: 13px;
 	font-weight: 700;
 	font-family: "Good Times", "Times Roman", "serf";
+	/*line-height: 25px;*/
+
 }
 
 header {
@@ -17,31 +19,30 @@ header {
 	text-align: center;
 }
 
- .questions {
+ .form-group {
 	background-color: lightblue;
-	margin-right: 300px;
-	margin-left: 300px;
-	padding-left: 0;
-	padding-right: 0;
+	max-width: 50%;
+	align-self: center;
+	
+	
+
+		/*margin-right: 230px;
+	margin-left: 230px;*/
 }
 
 h1 {
-	font-size: 10px:
+	font-size: 30px:
 	font-weight: 300;
-	text-align: center;
-	margin-top:0;
+	text-align: center:;
 }
 
-p, form {
+p {
 	background-color: lightblue;
 	/*height: 30px;*/
 }
 
-#done {
-	color: red;
-	margin-left: 50px;
-	border-color: red;
-	border-width: 3px;
+form {
+	background-color: lightblue;
 }
 
 
